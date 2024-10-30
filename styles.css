@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+@keyframes float {
+    0%, 100% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+}
+
+
+body {
+    background: #6441A5; 
+    background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  
+    background: linear-gradient(to right, #2a0845, #6441A5); 
+}
+
+
+/* HEADER SECTION */
+
+header {
+    
+    background-color: rgba(23,23,23,0.15);
+}
+
+
+
+header {
+    font-weight: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, saSns-serif;
+    font-size: 18px;
+}
+
+/* HEADER SECTION END */
+
+
+/* NAV SECTION */
+
+.navbar-nav > li{
+    margin-left:20px;
+    margin-right:20px;
+  }
+
+.navbar-toggler {
+    border: solid !important;
+    border-color: grey !important;
+}
+
+/* NAV SECTION END */
+
+
+/* MAIN SECTION LEFT */
+
+.name {
+    font-size: 70px;
+    font-family: "Righteous", sans-serif;
+}
+
+p {
+    letter-spacing: 1px;
+    color: whitesmoke;
+    line-height: 28px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, saSns-serif;
+}
+
+.content {
+    max-height: 50px; /* Limit height for the initial view */
+    overflow: hidden; /* Hide overflow */
+    transition: max-height 0.3s ease; /* Smooth transition */
+}
+.expanded {
+    max-height: 200px; /* Height when expanded */
+}
+
+.read-more {
+    color: blue;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+span{
+    background: linear-gradient(to right, #E4454A, #CA3EA7);
+    -webkit-background-clip: text; 
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+/* MAIN SECTION END */
+
+/* MAIN SECTION RIGHT */
+
+.floating-image {
+  
+    animation: float 3s ease-in-out infinite;
+    animation-play-state: running;
+}
+
+section a {
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, saSns-serif;
+    color: whitesmoke;
+}
+
+/* MAIN SECTION RIGHT END */
