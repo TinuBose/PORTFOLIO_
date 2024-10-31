@@ -1,0 +1,9 @@
+
+
+body {
+    margin: 0;
+    background: cyan;
+    /* background: linear-gradient(109.6deg, rgb(28, 1, 59) 13.4%, rgb(81, 2, 36) 100.2%); */
+    /* background: -webkit-linear-gradient(to right, #2a0845, #6441A5);  
+    background: linear-gradient(to right, #2a0845, #6441A5);  */
+}
