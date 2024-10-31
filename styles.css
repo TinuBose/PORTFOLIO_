@@ -9,6 +9,10 @@
     }
 }
 
+* {
+    box-sizing: border-box;
+}
+
 
 body {
     background: #6441A5; 
@@ -20,8 +24,8 @@ body {
 /* HEADER SECTION */
 
 header {
-    
     background-color: rgba(23,23,23,0.15);
+    
 }
 
 
@@ -48,6 +52,13 @@ header {
 }
 
 /* NAV SECTION END */
+
+
+.p-5 {
+    display: flex;
+    justify-content: center; /* Centers items horizontally */
+    align-items: center; /* Centers items vertically */
+}
 
 
 /* MAIN SECTION LEFT */
