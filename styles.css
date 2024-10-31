@@ -108,6 +108,10 @@ span{
     animation-play-state: running;
 }
 
+.floating-image:hover {
+    animation-play-state: paused;
+}
+
 section a {
     text-decoration: none;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, saSns-serif;
