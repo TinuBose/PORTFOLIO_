@@ -81,3 +81,13 @@ section a:hover {
 .footer {
   padding-bottom: 0;
 }
+
+
+.modal-popup {
+  background: linear-gradient(109.6deg, rgb(28, 1, 59) 13.4%, rgb(81, 2, 36) 100.2%);
+}
+
+/* .modal-content {
+  background: linear-gradient(109.6deg, rgb(28, 1, 59) 13.4%, rgb(81, 2, 36) 100.2%);
+
+} */
