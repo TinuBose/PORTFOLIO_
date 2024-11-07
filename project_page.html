@@ -414,7 +414,49 @@
         <a href="#" class="ms-4"><i class="fa-brands fa-instagram text-white"></i></a>
         <a href="#" class="ms-4"><i class="fa-brands fa-twitter text-white"></i></a>
         <a href="#" class="ms-4"><i class="fa-brands fa-discord text-white"></i></a> -->
-        <button type="button" class="btn btn-outline-light mt-3" style="width: 12rem; height:3rem">Let's Connect</button>
+        <!-- <button type="button" class="btn btn-outline-light mt-3" style="width: 12rem; height:3rem">Let's Connect</button> -->
+
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#exampleModal"
+          style="width: 12rem; height:3rem">
+          Let's Connect
+        </button>
+
+        <!-- Modal -->
+        <div class="modal fade modal-popup" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+          aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">How can I help you today?</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+
+                <div class="mb-3">
+
+                  <input class="form-control" type="text" placeholder="Name" aria-label="default input example">
+                </div>
+                <div class="mb-3">
+
+                  <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
+                    placeholder="Email">
+                </div>
+                <div class="mb-3">
+
+                  <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Message"
+                    aria-label="default input example" rows="3"></textarea>
+                </div>
+
+
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary">Send</button>
+              </div>
+            </div>
+          </div>
+        </div>
 
       </div>
     </div>
