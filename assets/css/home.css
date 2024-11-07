@@ -67,6 +67,9 @@ section a:hover {
   color: grey;
 }
 
+.sec-class::-webkit-scrollbar {
+  display: none;
+}
 
 .floating-image {
 
