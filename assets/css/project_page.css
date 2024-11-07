@@ -66,3 +66,7 @@ header {
   background: rgba(255, 255, 255, 0.7);
   Thumb color on hover
 } */
+
+.modal-popup {
+  background: linear-gradient(109.6deg, rgb(28, 1, 59) 13.4%, rgb(81, 2, 36) 100.2%);
+}
