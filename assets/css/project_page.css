@@ -16,6 +16,11 @@ header {
 
 }
 
+a:hover {
+  color: gray !important;
+}
+
+
 .sec-class::-webkit-scrollbar {
   display: none;
 }
