@@ -40,9 +40,12 @@ header {
 
 }
 
+a {
+  text-decoration: none;
+}
+
 a:hover {
   color: gray !important;
-  text-decoration: none;
 }
 
 
